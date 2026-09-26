@@ -1,2 +1,2 @@
-#;Fasploit Skills
+# Fasploit Skills
 just some skills for my AI
