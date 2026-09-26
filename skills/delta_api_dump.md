@@ -1,0 +1,444 @@
+# Delta Executor API Dump — Full Environment Inventory
+
+> Use when looking up whether a function exists on Delta, its exact name, all known aliases, or which tables/subtables are available. This is the raw dumped environment of Delta v73801 — 373 unique function objects, 24 unique table objects. Covers undocumented entries (pibble, LuaStateProxy, Regex, Stopwatch, Duration, server, glooperror) not listed anywhere else.
+
+**Source:** Delta v73801 — auto-generated API inventory (dump.txt)  
+**Executor reference:** Delta v73801 — functions listed without execution, aliases marked with →
+
+---
+
+# Delta Executor API
+
+> Automatically generated API inventory.
+> Functions are listed without executing them.
+
+## Environment
+
+- `DELTA_VERSION_NUM` — number = `73801`
+- `Delta` — table
+  - `architecture` — function
+  - `architecture_str` — function
+  - `get_platform` — function
+  - `is_android` — function
+  - `is_ios` — function
+  - `is_mac` — function
+  - `is_vng` — function
+  - `roblox_version` — function
+  - `version` — function
+  - `version_hash` — function
+  - `version_num` — function
+- `DeltaSignal` — table
+  - `new` — function
+- `Drawing` — table
+  - `Fonts` — table
+    - `Monospace` — number = `3`
+    - `Plex` — number = `2`
+    - `System` — number = `1`
+    - `UI` — number = `0`
+  - `clear` — function
+  - `new` — function
+- `Duration` — table
+  - `FromDays` — function
+  - `FromHours` — function
+  - `FromMicroseconds` — function
+  - `FromMilliseconds` — function
+  - `FromMinutes` — function
+  - `FromMonths` — function
+  - `FromNanoseconds` — function
+  - `FromSeconds` — function
+  - `FromYears` — function
+  - `TimeSinceEpoch` — function
+- `LuaStateProxy` — table
+  - `new` — function
+- `RakNet` — table
+  - `desync` — function
+  - `is_enabled` — function
+- `Raknet` — table → `getgenv().RakNet`
+- `Regex` — table
+  - `Escape` — function
+  - `new` — function
+- `Signal` — table → `getgenv().DeltaSignal`
+- `Stopwatch` — table
+  - `new` — function
+- `WebSocket` — table
+  - `connect` — function
+- `_G` — table
+- `appendfile` — function
+- `base64` — table
+  - `decode` — function
+  - `encode` — function
+- `base64_decode` — function
+- `base64_encode` — function
+- `base64decode` — function
+- `base64encode` — function
+- `bit` — table
+  - `arshift` — function
+  - `band` — function
+  - `bnot` — function
+  - `bor` — function
+  - `btest` — function
+  - `bxor` — function
+  - `byteswap` — function
+  - `countlz` — function
+  - `countrz` — function
+  - `extract` — function
+  - `lrotate` — function
+  - `lshift` — function
+  - `replace` — function
+  - `rrotate` — function
+  - `rshift` — function
+- `cache` — table
+  - `invalidate` — function
+  - `iscached` — function
+  - `replace` — function
+- `cansignalreplicate` — function
+- `checkcaller` — function
+- `checkclosure` — function
+- `checkparallel` — function
+- `clear_teleport_queue` — function
+- `cleardrawcache` — function
+- `clearqueue_on_teleport` — function
+- `clearqueueonteleport` — function
+- `clearteleportqueue` — function
+- `clonefunc` — function
+- `clonefunction` — function
+- `cloneref` — function
+- `clonereference` — function
+- `compareinstances` — function
+- `consoleclear` — function
+- `consolecreate` — function
+- `consoledestroy` — function
+- `consoleinput` — function
+- `consoleprint` — function
+- `consolesettitle` — function
+- `create_comm_channel` — function
+- `crypt` — table
+  - `base64` — table
+    - `decode` — function
+    - `encode` — function
+  - `base64_decode` — function
+  - `base64_encode` — function
+  - `base64decode` — function
+  - `base64encode` — function
+  - `decrypt` — function
+  - `encrypt` — function
+  - `generatebytes` — function
+  - `generatekey` — function
+  - `hash` — function
+  - `hmac` — function
+  - `lz4compress` — function
+  - `lz4decompress` — function
+  - `random` — function
+- `debug` — table
+  - `dumpcodesize` — function
+  - `dumpheap` — function
+  - `dumprefs` — function
+  - `getcallstack` — function
+  - `getconstant` — function
+  - `getconstants` — function
+  - `getinfo` — function
+  - `getmemorycategory` — function
+  - `getmetatable` — function
+  - `getproto` — function
+  - `getprotos` — function
+  - `getregistry` — function
+  - `getstack` — function
+  - `getupvalue` — function
+  - `getupvalues` — function
+  - `info` — function
+  - `isvalidlevel` — function
+  - `loadmodule` — function
+  - `profilebegin` — function
+  - `profileend` — function
+  - `resetmemorycategory` — function
+  - `setconstant` — function
+  - `setmemorycategory` — function
+  - `setmetatable` — function
+  - `setstack` — function
+  - `setupvalue` — function
+  - `traceback` — function
+  - `validlevel` — function
+- `decompile` — function
+- `deletefolder` — function
+- `delfile` — function
+- `delfolder` — function
+- `detour_function` — function
+- `detourfunction` — function
+- `dofile` — function
+- `dumpbytecode` — function
+- `dumpstring` — function
+- `filtergc` — function
+- `fireclickdetector` — function
+- `fireproximityprompt` — function
+- `firesignal` — function
+- `firetouchinterest` — function
+- `get_actors` — function
+- `get_callback_value` — function
+- `get_comm_channel` — function
+- `get_current_actor` — function
+- `get_deleted_actors` — function
+- `get_destroyed_actors` — function
+- `get_fps_cap` — function
+- `get_hidden_gui` — function
+- `get_hidden_properties` — function
+- `get_nil_instances` — function
+- `get_original_thread` — function
+- `get_properties` — function
+- `get_renderstepped_list` — function
+- `get_signal_cons` — function
+- `get_thread_context` — function
+- `get_thread_identity` — function
+- `getactors` — function
+- `getactorstates` — function
+- `getallactors` — function
+- `getallthreads` — function
+- `getbspval` — function
+- `getcallbackmember` — function
+- `getcallbackvalue` — function
+- `getcallingscript` — function
+- `getcallstack` — function
+- `getcbvalue` — function
+- `getconnectionfunction` — function
+- `getconnections` — function
+- `getconnectionthread` — function
+- `getconstant` — function
+- `getconstants` — function
+- `getcurrentactor` — function
+- `getcustomasset` — function
+- `getdeletedactors` — function
+- `getdestroyedactors` — function
+- `getexecutorname` — function
+- `getfenv` — function
+- `getfflag` — function
+- `getfpscap` — function
+- `getfunctionbytecode` — function
+- `getfunctionhash` — function
+- `getgamestate` — function
+- `getgc` — function
+- `getgenv` — function
+- `gethiddenproperties` — function
+- `gethiddenproperty` — function
+- `gethiddenprops` — function
+- `gethui` — function
+- `gethwid` — function
+- `getidentity` — function
+- `getinfo` — function
+- `getinstancecache` — function
+- `getinstances` — function
+- `getloadedmodules` — function
+- `getluastate` — function
+- `getmenv` — function
+- `getmousepos` — function
+- `getnamecallmethod` — function
+- `getnilinstances` — function
+- `getobjects` — function
+- `getpcd` — function
+- `getpcdprop` — function
+- `getproperties` — function
+- `getprops` — function
+- `getproto` — function
+- `getprotos` — function
+- `getproximitypromptduration` — function
+- `getrawmetatable` — function
+- `getreg` — function
+- `getrenderproperty` — function
+- `getrenderstepcallbacks` — function
+- `getrendersteppedlist` — function
+- `getrenv` — function
+- `getrunningscripts` — function
+- `getscriptbytecode` — function
+- `getscriptclosure` — function
+- `getscriptfromthread` — function
+- `getscriptfunction` — function
+- `getscripthash` — function
+- `getscripts` — function
+- `getscriptsthatrun` — function
+- `getscriptthread` — function
+- `getsenv` — function
+- `getsignalarguments` — function
+- `getsignalargumentsinfo` — function
+- `getsignalwhitelist` — function
+- `getsimulationradius` — function
+- `getstack` — function
+- `getthreadcontext` — function
+- `getthreadidentity` — function
+- `getupvalue` — function
+- `getupvalues` — function
+- `glooperror` — function
+- `hookfunc` — function
+- `hookfunction` — function
+- `hookmetamethod` — function
+- `hookproto` — function
+- `http` — table
+  - `request` — function
+- `http_request` — function
+- `httpget` — function
+- `httppost` — function
+- `identifyexecutor` — function
+- `is_c_closure` — function
+- `is_delta_closure` — function
+- `is_executor_closure` — function
+- `is_function_hooked` — function
+- `is_l_closure` — function
+- `is_our_closure` — function
+- `iscclosure` — function
+- `isconnectionenabled` — function
+- `iscustomcclosure` — function
+- `isdeltafunction` — function
+- `isexecutorclosure` — function
+- `isexecutorthread` — function
+- `isfile` — function
+- `isfolder` — function
+- `isfunctionhooked` — function
+- `isgameactive` — function
+- `isgamescriptconnection` — function
+- `ishooked` — function
+- `islclosure` — function
+- `isluaconnection` — function
+- `isnetworkowner` — function
+- `isnewcclosure` — function
+- `isourclosure` — function
+- `isourthread` — function
+- `isparallel` — function
+- `isprotohooked` — function
+- `isrbxactive` — function
+- `isreadonly` — function
+- `isrenderobj` — function
+- `isscriptable` — function
+- `isvalidlevel` — function
+- `iswaitingconnection` — function
+- `iswindowactive` — function
+- `iswritable` — function
+- `keyclick` — function
+- `keypress` — function
+- `keyrelease` — function
+- `keytap` — function
+- `listfiles` — function
+- `loadfile` — function
+- `loadstring` — function
+- `lz4_compress` — function
+- `lz4_decompress` — function
+- `lz4compress` — function
+- `lz4decompress` — function
+- `make_readonly` — function
+- `make_writeable` — function
+- `makefolder` — function
+- `makereadonly` — function
+- `makewritable` — function
+- `messagebox` — function
+- `mouse1click` — function
+- `mouse1press` — function
+- `mouse1release` — function
+- `mouse2click` — function
+- `mouse2press` — function
+- `mouse2release` — function
+- `mousemoveabs` — function
+- `mousemoverel` — function
+- `mousescroll` — function
+- `newcclosure` — function
+- `newlclosure` — function
+- `oth` — table
+  - `get_original_thread` — function
+  - `get_root_callback` — function
+  - `hook` — function
+  - `is_hook_thread` — function
+  - `unhook` — function
+- `pibble` — table
+  - `getpibbles` — function
+  - `gmail` — function
+  - `is_detected` — function
+  - `is_pibble` — function
+  - `washington` — function
+- `queue_on_teleport` — function
+- `queueonteleport` — function
+- `raknet` — table → `getgenv().RakNet`
+- `rconsoleclear` — function
+- `rconsolecreate` — function
+- `rconsoledestroy` — function
+- `rconsoleerr` — function
+- `rconsolehide` — function
+- `rconsoleinfo` — function
+- `rconsoleinput` — function
+- `rconsolename` — function
+- `rconsoleprint` — function
+- `rconsolesettitle` — function
+- `rconsoleshow` — function
+- `rconsolewarn` — function
+- `readbinarystring` — function
+- `readbinarystringpropertyvalue` — function
+- `readbspval` — function
+- `readfile` — function
+- `replaceclosure` — function
+- `replacefunc` — function
+- `replacefunction` — function
+- `replicatesignal` — function
+- `request` — function
+- `restoreclosure` — function
+- `restorefunc` — function
+- `restorefunction` — function
+- `restoreproto` — function
+- `rnet` — table → `getgenv().RakNet`
+- `run_on_actor` — function
+- `runonactor` — function
+- `server` — table
+  - `has_authority` — function
+- `set_clipboard` — function
+- `set_fps_cap` — function
+- `set_hidden_property` — function
+- `set_raw_metatable` — function
+- `set_rbx_clipboard` — function
+- `set_thread_context` — function
+- `set_thread_identity` — function
+- `setclipboard` — function
+- `setconnectionenabled` — function
+- `setconstant` — function
+- `setfflag` — function
+- `setfpscap` — function
+- `sethiddenprop` — function
+- `sethiddenproperty` — function
+- `setidentity` — function
+- `setnamecallmethod` — function
+- `setproximitypromptduration` — function
+- `setrawmetatable` — function
+- `setrbxclipboard` — function
+- `setreadonly` — function
+- `setrenderproperty` — function
+- `setscriptable` — function
+- `setsimulationradius` — function
+- `setstack` — function
+- `setstackhidden` — function
+- `setthreadcontext` — function
+- `setthreadidentity` — function
+- `setupvalue` — function
+- `shared` — table
+- `toclipboard` — function
+- `validlevel` — function
+- `websocket` — table → `getgenv().WebSocket`
+- `writefile` — function
+- `zstd_compress` — function
+- `zstd_decompress` — function
+- `zstdcompress` — function
+- `zstddecompress` — function
+
+## getfenv()
+
+- `script` — Instance
+
+## _G
+
+`_G` references an already discovered environment.
+
+## Exact Function Aliases
+
+No exact function aliases detected.
+
+## Table References
+
+No repeated table references detected.
+
+## Statistics
+
+- Unique function objects: `373`
+- Unique table objects: `24`
+- Dump lines: `433`
+- Maximum depth: `12`
