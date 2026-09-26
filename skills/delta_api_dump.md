@@ -2,7 +2,7 @@
 
 > Use when looking up whether a function exists on Delta, its exact name, all known aliases, or which tables/subtables are available. This is the raw dumped environment of Delta v73801 — 373 unique function objects, 24 unique table objects. Covers undocumented entries (pibble, LuaStateProxy, Regex, Stopwatch, Duration, server, glooperror) not listed anywhere else.
 
-**Source:** Delta v73801 — auto-generated API inventory (Coisas_q_eu_me_lembro.txt)  
+**Source:** Delta v73801 — auto-generated API inventory (dump.txt)  
 **Executor reference:** Delta v73801 — functions listed without execution, aliases marked with →
 
 ---
